@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: border-box;
 }
 
-.navbar{
+.navbar {
     background-color: #0F1111;
     height: 65px;
     color: white;
@@ -14,42 +14,50 @@
 }
 
 /* box 1 */
-.navlogo{
+.navlogo {
     height: 60px;
     width: 130px;
 }
-.logo{
+
+.logo {
     background-image: url(images/amazon_logo.png);
     background-size: cover;
     height: 60px;
     width: 100%;
 }
 
-.border{
-    border: 2px solid transparent;
+.border {
+    border: 3px solid transparent;
 }
-.border:hover{
+
+.border:hover {
     border: 1.5px solid white;
 }
 
 
 
 /* box 2 */
-.add-first{
+
+.nav-address {
+    border: 2px solid transparent;
+    padding: 11px;
+}
+.add-first {
     color: #cccccc;
     font-size: .85rem;
-    margin-left:14px ;
+    margin-left: 14px;
 
-    
+
 }
-.add-sec{
+
+.add-sec {
     color: #ffffff;
     font-size: 1rem;
     margin-left: 3px;
 }
 
 
-.add-icon{
+.add-icon {
     display: flex;
     align-items: center;
 
@@ -58,20 +66,21 @@
 
 /* box 3 */
 
-.nav-search{
+.nav-search {
     display: flex;
     width: 620px;
     height: 40px;
 
 
-    
+
 }
-.nav-search:hover{
+
+.nav-search:hover {
     border: 2px solid orange;
 }
 
 
-.search-select{
+.search-select {
     background-color: #f3f3f3;
     width: 50px;
     border-top-left-radius: 4px;
@@ -81,7 +90,7 @@
 
 }
 
-.search-input{
+.search-input {
     font-size: 1rem;
     width: 100%;
     border: none;
@@ -90,31 +99,42 @@
 
 }
 
-.search-icon{
-   width: 45px; 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #febd68;
-   border-top-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   color: #0f1111;
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
 }
 
 /* box 4 */
 
-span{
+.nav-sign{
+    border: 2px solid transparent;
+    padding: 11px;
+}
+
+.nav-return{
+    border: 2px solid transparent;
+    padding: 11px;
+}
+span {
     font-size: .85rem;
     font-weight: 400;
 }
-.nav-second{
+
+.nav-second {
     font-size: 1rem;
     font-weight: 700;
 
 }
 
 /* box 6 */
-.nav-cart i{
+
+.nav-cart i {
     font-size: 30px;
 }
 
@@ -122,4 +142,44 @@ span{
 
     font-size: .85rem;
     font-weight: 700;
+    border: 2px solid transparent;
+    padding: 13px;
 }
+
+/* panel  */
+.panel-all{
+    border: 2px solid transparent;
+    padding: 9px;
+}
+
+.panel {
+    display: flex;
+    background-color: #222f3d;
+    height: 39px;
+    color: white;
+    align-items: center;
+   
+
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 7px;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    border: 2px solid transparent;
+    padding: 9px;
+   
+
+}
+/* /////////////////// */
+/* hero section */
+.hero{
+    background-image:url('images/scroll1.jpg') ;
+    background-size: cover;
+    height: 600px;
+}
+
+
+
+
